@@ -7,6 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
+#This is the location of the chromdriver on your computer
 PATH = "/Users/AG/Downloads/chromedriver"
 driver = webdriver.Chrome(PATH)
 
