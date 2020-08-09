@@ -23,7 +23,7 @@ username = driver.find_element_by_id('username')
 username.send_keys('')
 password = driver.find_element_by_id('password')
 password.send_keys('')
-
+search.send_keys(Keys.ENTER)
 
 time.sleep(5)
 driver.quit()
